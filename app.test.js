@@ -21,7 +21,7 @@ test('numeros pares', () => {
     const b = 10
     const expected = "2;4;6;8;10;"
     // act
-    const result = numerosPares();
+    const result = numerosPares(a, b);
     // assert
     expect(result).toBe(expected);
 })
